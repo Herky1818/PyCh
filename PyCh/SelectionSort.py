@@ -4,7 +4,7 @@ def sort(nums):
         for j in range(i,len(nums)):
             if nums[j]<nums[minpos]:
                 minpos=j
-        temp=nums[i]
+        temp=nums[i]#Harsha
         nums[i]=nums[minpos]
         nums[minpos]=temp
         print(nums)
